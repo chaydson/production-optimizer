@@ -1,0 +1,63 @@
+# dependencies
+node_modules/
+
+# build output
+dist/
+build/
+
+# logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# environment variables
+.env
+.env.local
+.env.*.local
+
+# IDEs / editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# test coverage
+coverage/
+
+# vite cache
+.vite/
+
+# temporary files
+tmp/
+temp/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# package manager lock backups
+package-lock.json.*
+yarn.lock.*
+pnpm-lock.yaml.*
+
+# storybook
+storybook-static/
+
+# local firebase
+.firebase/
+
+# cypress
+cypress/videos/
+cypress/screenshots/
